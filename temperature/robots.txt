@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://temperature.chidu.org/sitemap.xml
