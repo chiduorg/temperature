@@ -246,8 +246,29 @@ void main(){
 export function createSun({radius = 1, hot = '#ffb43c', cool = '#c22600', intensity = 1.0, detail = 1, map = null, tint = '#fff2d8'} = {}) {
   const group = new THREE.Group(); group.name = 'sun';
   if (map) {
-    const material = new THREE.MeshBasicMaterial({map, color: tint});
+    const material = new THREE.MeshBasicMaterial({color: tint});
     material.color.multiplyScalar(1.3);
+    const ready = () => {
+      const image = map.image;
+      return !!image && ((image.width || 0) > 8 || (image.naturalWidth || 0) > 8);
+    };
+    if (ready()) {
+      material.map = map;
+    } else {
+      // Before the real solar texture decodes, draw a warm emissive disc instead
+      // of the texture store's neutral 2×2 placeholder (which reads as a black sun).
+      material.color.set(0xff8a2a);
+      material.color.multiplyScalar(1.25);
+      const timer = setInterval(() => {
+        if (!ready()) return;
+        material.map = map;
+        material.color.set(tint);
+        material.color.multiplyScalar(1.3);
+        material.needsUpdate = true;
+        clearInterval(timer);
+      }, 200);
+      setTimeout(() => clearInterval(timer), 20000);
+    }
     const mesh = new THREE.Mesh(sphere(radius, Math.max(96, Math.round(160 * detail)), Math.max(64, Math.round(110 * detail))), material);
     group.add(mesh);
     group.add(atmosphere(radius * 1.055, 0xff9038, .45));
