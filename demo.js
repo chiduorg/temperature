@@ -28,7 +28,7 @@ async function initScene3D(){
 function scheduleScene3D(){
  if(readingRequested()||document.body.classList.contains('is-reading-mode'))return;
  const run=()=>initScene3D(),defer=()=>{'requestIdleCallback' in window?requestIdleCallback(run,{timeout:2000}):setTimeout(run,700);};
- const start=()=>{if(matchMedia('(max-width:600px)').matches)setTimeout(defer,2500);else defer();};
+ const start=()=>{if(matchMedia('(max-width:600px)').matches)setTimeout(defer,600);else defer();};
  if(document.readyState==='complete')start();else addEventListener('load',start,{once:true});
 }
 try{
