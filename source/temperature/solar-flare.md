@@ -24,6 +24,7 @@ related:
   - temperature.solar-transition-region
   - temperature.sunspot
   - temperature.solar-wind
+  - space.neutron-star
 reviewStatus: reviewed
 sources:
   - title: What is a Solar Flare?
@@ -35,6 +36,10 @@ sources:
       https://ntrs.nasa.gov/api/citations/20120013202/downloads/20120013202.pdf?attachment=true
     publisher: 'NASA Technical Reports Server, G. D. Holman'
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为太阳大气活动区中的耀斑等离子体；10⁷ K 指由软 X 射线谱和发射线拟合得到的温度，
   不是光球或色球的背景温度。耀斑常呈多温结构，单个拟合值只是加权结果。
@@ -81,3 +86,5 @@ tags:
 ## 与日冕和其他温区比较
 
 10⁷ K 比光球的约 5,772 K 高三个多量级，也比电离氢区的约 10⁴ K 热得多。[1] 它接近年轻超新星遗迹的激波温度，却远低于伽马射线暴火球的约 10⁹ K。耀斑说明太阳大气可以局部、短暂地进入极端高温状态。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

@@ -16,11 +16,12 @@ quantity:
   uncertainty: 0.002
 displayValue: 约 2.725 K（−270.425 °C）
 related:
+  - space.moon
+  - mass.helium-nucleus
   - temperature.cmb
   - temperature.neutrino-background-temp
   - temperature.absolute-zero
   - temperature.hawking-temperature
-  - temperature.liquid-hydrogen
 reviewStatus: reviewed
 sources:
   - title: 'FIRAS overview: cosmic microwave background spectrum'

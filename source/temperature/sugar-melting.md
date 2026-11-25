@@ -19,6 +19,7 @@ related:
   - temperature.bread_baking
   - temperature.chocolate-melting
   - temperature.salt-melting
+  - space.human
 reviewStatus: reviewed
 sources:
   - title: 'SRM 17g Sucrose Optical Rotation: safety data sheet'

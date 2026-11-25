@@ -19,6 +19,7 @@ related:
   - temperature.tungsten-melting
   - temperature.fusion-reactor-plasma
   - temperature.steelmaking_temp
+  - space.volcano
 reviewStatus: reviewed
 sources:
   - title: Gas turbine propulsion

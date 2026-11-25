@@ -19,6 +19,7 @@ related:
   - temperature.oven
   - temperature.butter-melting
   - temperature.caramelization
+  - space.human
 reviewStatus: reviewed
 sources:
   - title: 'Protein: coagulation'
@@ -30,6 +31,10 @@ sources:
       https://www.incredibleegg.org/professionals/manufacturers/real-egg-functionality/coagulation-thickening/
     publisher: American Egg Board
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions:
   medium: 蛋清与蛋黄
   measurementSite: 蛋内部
@@ -80,3 +85,5 @@ tags:
 ## 与其他温度的关系
 
 343 K 低于 boiling-water 的 373.15 K，也低于 food-safe 的 348 K；它高于 human-body-temperature 的 310 K。与 butter-melting 的 306 K 相比，蛋类凝固发生在更暖的温区，而且机制是蛋白质变性而非脂肪相变。理解这个数值，要把“凝固区间”与“杀菌阈值”分开。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

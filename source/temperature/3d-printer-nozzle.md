@@ -19,6 +19,7 @@ related:
   - temperature.sugar-melting
   - temperature.chocolate-melting
   - temperature.oven
+  - space.human
 reviewStatus: reviewed
 sources:
   - title: Filament material guide
@@ -29,6 +30,10 @@ sources:
     url: 'https://www.britannica.com/technology/3D-printing'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   FDM/FFF 热熔挤出打印机、加热块与喷嘴、PLA 丝材、常规层高和打印速度； 设定值以切片软件和机器控制器为准。ABS
   需要更高喷嘴温度和封闭腔体，PLA 则不需要。
@@ -78,3 +83,5 @@ FDM/FFF 3D 打印机的喷嘴温度，是热端加热块把热塑性丝材加热
 ## 与其他温区的关系
 
 483 K 低于电烙铁的 623 K，高于巧克力熔化的约 305 K 和水的沸点 373 K。它处在低熔点聚合物加工区间，远低于水泥窑的 1,723 K 或焊接电弧的 3,500 K。[1]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

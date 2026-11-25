@@ -19,6 +19,7 @@ related:
   - temperature.antarctic_min_temp
   - temperature.permafrost
   - temperature.sea-surface
+  - space.human
 reviewStatus: reviewed
 sources:
   - title: Daily Snow and Sea Ice Temperature over the North Pole
@@ -29,6 +30,10 @@ sources:
     url: 'https://www.britannica.com/science/sea-ice'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions:
   medium: 海冰与雪盖表面
   measurementSite: 冰盖最上层
@@ -77,3 +82,5 @@ NASA 的 MODIS 海冰表面温度产品由 Aqua 卫星遥感反演，能逐日�
 ## 与其他温度的关系
 
 258 K 低于 lake-freezing 的 273.15 K，也低于 plant-frost 的 271 K；它高于 antarctic_min_temp 的极低记录。与 sea-surface 的全球平均约 290 K 相比，冬季北极冰面低约 30 K。它和 permafrost 同属冰冻圈，但一个是海洋表面的冰，一个是陆地下面的冻土。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

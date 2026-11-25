@@ -19,6 +19,7 @@ related:
   - temperature.arc-lamp
   - temperature.lightning
   - temperature.oxyacetylene-flame
+  - space.white-dwarf
 reviewStatus: reviewed
 sources:
   - title: 'Thermal cutting fumes assessment: plasma, oxy-fuel and laser cutting'
@@ -30,6 +31,10 @@ sources:
       https://www.twi-global.com/technical-knowledge/faqs/faq-what-is-plasma-cutting
     publisher: TWI Global
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   等离子弧切割（PAC）割炬内的压缩电弧与喷嘴出口射流，常压、空气或氩/氮保护气；
   温度随电源功率、气体种类、喷嘴结构和切割速度变化。测点指等离子体，不是切缝或工件整体。
@@ -77,3 +82,5 @@ tags:
 ## 与其他温区的关系
 
 8,000 K 高于焊接电弧的约 3,500 K、弧光灯正极 crater 的约 4,000 K 和钨的熔点 3,695 K，低于闪电通道的约 30,000 K。它处在热等离子体加工区间，足以熔化多数导电材料。[1]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

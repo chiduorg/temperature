@@ -20,6 +20,7 @@ related:
   - temperature.arc-lamp
   - temperature.oxyacetylene-flame
   - temperature.iron-melting
+  - space.sun
 reviewStatus: reviewed
 sources:
   - title: 'Arc welding: metallurgy'

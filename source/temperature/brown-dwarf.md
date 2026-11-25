@@ -23,16 +23,22 @@ related:
   - temperature.red-dwarf-surface
   - temperature.k-type-star
   - temperature.b-type-star
+  - space.brown-dwarf
+  - time.first-stars
 reviewStatus: reviewed
 sources:
   - title: Brown dwarf
     url: 'https://www.britannica.com/science/brown-dwarf'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
-  - title: 'The Spectral Sequence'
+  - title: The Spectral Sequence
     url: 'https://openstax.org/books/astronomy-2e/pages/17-3-the-spectral-sequence'
-    publisher: 'OpenStax Astronomy 2e（CC BY 4.0）'
+    publisher: OpenStax Astronomy 2e（CC BY 4.0）
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为质量低于约 0.075 倍太阳质量、不能稳定氢聚变的亚恒星天体；温度指光球有效温度， 随质量与年龄变化。1,000 K 是 L/T 型附近的锚点，Y
   型可冷到数百开尔文。
@@ -79,3 +85,5 @@ tags:
 ## 与恒星和行星的比较
 
 1,000 K 低于 M 型红矮星的温区，也低于太阳的约 5,772 K，却高于多数巨行星的有效温度。[1][2] 冷到数百开尔文的 Y 型已经接近行星温区。正是这段连续过渡，使褐矮星成为检验恒星与行星分界的研究对象。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

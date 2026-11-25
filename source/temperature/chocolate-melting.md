@@ -19,6 +19,7 @@ related:
   - temperature.human-body-temperature
   - temperature.caramelization
   - temperature.food-safe
+  - space.human
 reviewStatus: reviewed
 sources:
   - title: The science of melting chocolate
@@ -30,6 +31,10 @@ sources:
     url: 'https://www.britannica.com/topic/chocolate'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions:
   medium: 可可脂与巧克力浆
   measurementSite: 巧克力内部
@@ -78,3 +83,5 @@ tags:
 ## 与其他温度的关系
 
 305 K 略低于 human-body-temperature 的约 310 K，因此巧克力能在口中迅速软化。它接近 butter-melting 的 306 K，但两者一个是可可脂晶型转变，一个是乳脂乳液熔化，不能直接等同。它也远低于 oven 的 453 K，说明调温是精细的低温柔区操作。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

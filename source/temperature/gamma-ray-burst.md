@@ -19,12 +19,12 @@ quantity:
     unit: K
 displayValue: 约 10⁹ K（温度量级；摄氏读数同量级）
 related:
+  - space.sun
+  - mass.sun
   - temperature.supernova
   - temperature.hypernova
   - temperature.kilonova_temp
   - temperature.black-hole-accretion-disk
-  - temperature.magnetar-surface
-  - temperature.quark-star
 reviewStatus: reviewed
 sources:
   - title: Fireballs

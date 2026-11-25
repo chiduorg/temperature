@@ -19,16 +19,17 @@ quantity:
     unit: K
 displayValue: '约 20,000 K（约 19,727 °C）'
 related:
+  - space.sun
+  - mass.sun
   - temperature.o-type-star-surface
   - temperature.a-type-star
   - temperature.rigel-surface
   - temperature.k-type-star
-  - temperature.sirius-surface
 reviewStatus: reviewed
 sources:
-  - title: 'The Spectral Sequence'
+  - title: The Spectral Sequence
     url: 'https://openstax.org/books/astronomy-2e/pages/17-3-the-spectral-sequence'
-    publisher: 'OpenStax Astronomy 2e（CC BY 4.0）'
+    publisher: OpenStax Astronomy 2e（CC BY 4.0）
     accessed: '2026-11-07'
   - title: >-
       A Modern Mean Dwarf Stellar Color and Effective Temperature Sequence,
@@ -36,6 +37,10 @@ sources:
     url: 'https://www.pas.rochester.edu/~emamajek/EEM_dwarf_UBVIJHK_colors_Teff.txt'
     publisher: 'University of Rochester, E. Mamajek'
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为主序 B 型星（约 B0–B9）；温度指光球有效温度，由光谱分类、角直径、视差和测热辐射流 结合大气模型拟合得到。20,000 K 是中段锚点，B0
   与 B9 的有效温度差异很大。
@@ -80,3 +85,5 @@ B 型星表面并非均匀发光体。快速自转会造成赤道鼓起和重力
 ## 在恒星温标上的位置
 
 20,000 K 高于 A 型星的约 7,500–11,000 K，也高于太阳的约 5,772 K；它低于 O 型星，后者约在 30,000 K 以上。[1][2] 再往冷端走便进入 A 型、F 型和 G 型。B 型星因此是理解大质量恒星加热星际介质的关键一环。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

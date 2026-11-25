@@ -17,6 +17,7 @@ related:
   - temperature.sugar-melting
   - temperature.quartz-melting
   - temperature.water-freezing
+  - space.volcano
 reviewStatus: reviewed
 sources:
   - title: 'Sodium Chloride: properties'

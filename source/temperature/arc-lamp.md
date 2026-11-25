@@ -17,6 +17,8 @@ related:
   - temperature.weld-arc
   - temperature.plasma-cutter
   - temperature.lightning
+  - mass.sun
+  - time.big-bang
 reviewStatus: reviewed
 sources:
   - title: On the temperature of the arc

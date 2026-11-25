@@ -19,6 +19,7 @@ related:
   - temperature.bread_baking
   - temperature.dishwashing
   - temperature.hot-spring
+  - space.human
 reviewStatus: reviewed
 sources:
   - title: Two New Bonavita Coffee Brewers Join the SCA Certified Home Brewer Lineup
@@ -33,6 +34,10 @@ sources:
       https://sca.coffee/sca-news/read/just-published-brewing-temperature-and-the-sensory-profile-of-brewed-coffee-37dt6
     publisher: Specialty Coffee Association (SCA)
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions:
   medium: 水
   measurementSite: 水与咖啡粉接触处
@@ -81,3 +86,5 @@ tags:
 ## 与其他温度的关系
 
 365 K 低于 boiling-water 的 373.15 K，只差约 8 K，所以高海拔时沸水可能落进这个区间。它高于 human-body-temperature 的约 310 K，也高于 dishwashing 的 333 K。与 oven 的 453 K 相比，咖啡冲泡属于“接近沸点但未沸腾”的温区，这个窄带正是萃取化学最活跃的范围。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

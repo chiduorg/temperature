@@ -21,16 +21,17 @@ quantity:
     unit: K
 displayValue: '约 7,000 K（温区示例）'
 related:
+  - space.sun
+  - time.first-stars
   - temperature.sun-surface
   - temperature.a-type-star
   - temperature.vega-surface
   - temperature.sirius-surface
-  - temperature.cepheid-surface
 reviewStatus: reviewed
 sources:
-  - title: 'The Spectral Sequence'
+  - title: The Spectral Sequence
     url: 'https://openstax.org/books/astronomy-2e/pages/17-3-the-spectral-sequence'
-    publisher: 'OpenStax Astronomy 2e（CC BY 4.0）'
+    publisher: OpenStax Astronomy 2e（CC BY 4.0）
     accessed: '2026-11-07'
   - title: Spectral Classification of Stars (Space Math 43)
     url: >-

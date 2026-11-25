@@ -18,6 +18,7 @@ related:
   - temperature.quartz-melting
   - temperature.glass_melting
   - temperature.lava-temperature
+  - space.volcano
 reviewStatus: reviewed
 sources:
   - title: >-

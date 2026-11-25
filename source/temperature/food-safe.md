@@ -31,6 +31,10 @@ sources:
     url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
     publisher: U.S. Food and Drug Administration (FDA)
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions:
   medium: 肉、禽或蛋类组织
   measurementSite: 食品最厚部位中心，避开骨头与脂肪
@@ -81,3 +85,5 @@ USDA FSIS 的表格按肉类给出不同最低值：牛排和猪排 145 °F（62
 ## 与其他温度的关系
 
 348 K 低于 boiling-water 的 373.15 K 约 25 K，也低于 oven 的 453 K。它高于 human-body-temperature 的 310 K，也高于 egg-cooking 的 343 K 附近；鸡蛋菜肴的 71 ℃ 与禽肉的 74 ℃ 属于同一食品安全段。理解这个数值的关键，是把介质、位置、时间和温度一起记录。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

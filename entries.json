@@ -2415,6 +2415,43 @@
     ]
   },
   {
+    "id": "temperature.cloud-top-temperature",
+    "title": "云顶温度：250 K 的深对流云塔",
+    "titleEn": "Cloud-top temperature at 250 K",
+    "dimension": "temperature",
+    "category": "低温",
+    "summary": "云顶温度是云层顶部由卫星红外传感器推断的温度；250 K 约 −23 ℃，常见于发展到较高高度的对流云，不是云底或地面温度。",
+    "quantity": {
+      "value": 250,
+      "unit": "K",
+      "measure": "−23 ℃云顶示例",
+      "approximate": true,
+      "measureLabel": "250 K（−23 ℃云顶示例）"
+    },
+    "displayValue": "250 K（−23 ℃云顶示例）",
+    "reviewStatus": "reviewed",
+    "conditions": {
+      "medium": "云顶冰晶与云上空气",
+      "measurementSite": "卫星视场内的云顶",
+      "duration": "卫星过境时刻",
+      "basis": "红外亮温反演，不是探空仪直接测温"
+    },
+    "visual": {
+      "template": "planet-environment",
+      "profile": "cloud",
+      "caption": "深对流云塔与卫星红外云顶温度的示意",
+      "note": "画面为解释性示意，非按比例、非观测重建；颜色、粒子、光晕与流动均为讲解服务，不代表真实测量。",
+      "color": "#7c9ec3",
+      "scene": "temperature.object"
+    },
+    "zone": "低温",
+    "tags": [
+      "低温",
+      "温度",
+      "环境"
+    ]
+  },
+  {
     "id": "temperature.coldest-brown-dwarf",
     "title": "超冷褐矮星 WISE 0855",
     "titleEn": "WISE 0855 temperature reference",
@@ -2984,6 +3021,43 @@
     ]
   },
   {
+    "id": "temperature.vaccine-cold-chain",
+    "title": "疫苗冷链：2—8 ℃的保存窗口",
+    "titleEn": "Vaccine cold chain at 2–8 °C",
+    "dimension": "temperature",
+    "category": "常温",
+    "summary": "许多常规疫苗需要在 2—8 ℃保存和运输；5 ℃是冷链示例，不是所有疫苗的统一温度，冻干苗、mRNA 疫苗等有不同要求。",
+    "quantity": {
+      "value": 278.15,
+      "unit": "K",
+      "measure": "5 ℃冷链示例",
+      "approximate": true,
+      "measureLabel": "278.15 K（5 ℃冷链示例）"
+    },
+    "displayValue": "278.15 K（5 ℃冷链示例）",
+    "reviewStatus": "reviewed",
+    "conditions": {
+      "medium": "疫苗与稀释液",
+      "measurementSite": "冷藏箱或冰箱内",
+      "duration": "运输与储存全程",
+      "basis": "产品说明书规定的温区，不是通用常数"
+    },
+    "visual": {
+      "template": "thermometer",
+      "profile": "cold-chain",
+      "caption": "冷藏箱、温度记录仪与疫苗瓶的示意",
+      "note": "画面为解释性示意，非按比例、非观测重建；颜色、粒子、光晕与流动均为讲解服务，不代表真实测量。",
+      "color": "#5e92ab",
+      "scene": "temperature.object"
+    },
+    "zone": "常温",
+    "tags": [
+      "常温",
+      "温度",
+      "医疗"
+    ]
+  },
+  {
     "id": "temperature.ocean-thermocline",
     "title": "海洋温跃层",
     "titleEn": "Ocean thermocline temperature reference",
@@ -3089,6 +3163,43 @@
     ]
   },
   {
+    "id": "temperature.data-center-inlet",
+    "title": "数据中心进风温度：18 ℃的运行窗口",
+    "titleEn": "Data-centre inlet temperature at 18 °C",
+    "dimension": "temperature",
+    "category": "常温",
+    "summary": "数据中心冷通道进风温度常用 18—27 ℃的推荐范围；18 ℃是偏低端示例，用于说明服务器散热与能效之间的折中，不是所有机房统一设定。",
+    "quantity": {
+      "value": 291.15,
+      "unit": "K",
+      "measure": "18 ℃进风示例",
+      "approximate": true,
+      "measureLabel": "291.15 K（18 ℃进风示例）"
+    },
+    "displayValue": "291.15 K（18 ℃进风示例）",
+    "reviewStatus": "reviewed",
+    "conditions": {
+      "medium": "进入服务器前的冷却空气",
+      "measurementSite": "机柜进风口",
+      "duration": "稳定运行工况",
+      "basis": "ASHRAE 推荐温区，不是芯片结温"
+    },
+    "visual": {
+      "template": "heat-map",
+      "profile": "data-centre",
+      "caption": "服务器机柜、冷通道与气流组织的示意",
+      "note": "画面为解释性示意，非按比例、非观测重建；颜色、粒子、光晕与流动均为讲解服务，不代表真实测量。",
+      "color": "#5b83a6",
+      "scene": "temperature.object"
+    },
+    "zone": "常温",
+    "tags": [
+      "常温",
+      "温度",
+      "环境"
+    ]
+  },
+  {
     "id": "temperature.room-temperature",
     "title": "室温",
     "titleEn": "Room-temperature example",
@@ -3126,6 +3237,43 @@
     ]
   },
   {
+    "id": "temperature.grid-battery-coolant",
+    "title": "电网储能冷却液：25 ℃的热管理目标",
+    "titleEn": "Grid battery coolant at 25 °C",
+    "dimension": "temperature",
+    "category": "常温",
+    "summary": "电网级锂电储能常用液冷把电芯温度维持在约 25 ℃附近，以减小温差、延缓衰减；25 ℃是控制目标示例，不是电芯内部所有位置的实际温度。",
+    "quantity": {
+      "value": 298.15,
+      "unit": "K",
+      "measure": "25 ℃冷却液示例",
+      "approximate": true,
+      "measureLabel": "298.15 K（25 ℃冷却液示例）"
+    },
+    "displayValue": "298.15 K（25 ℃冷却液示例）",
+    "reviewStatus": "reviewed",
+    "conditions": {
+      "medium": "锂离子储能电芯与冷却液",
+      "measurementSite": "液冷板进出口与模组温度",
+      "duration": "充放电循环与待机",
+      "basis": "热管理目标，不是环境气温"
+    },
+    "visual": {
+      "template": "heat-map",
+      "profile": "grid-storage",
+      "caption": "储能集装箱、液冷板与电芯模组的示意",
+      "note": "画面为解释性示意，非按比例、非观测重建；颜色、粒子、光晕与流动均为讲解服务，不代表真实测量。",
+      "color": "#5f86a0",
+      "scene": "temperature.object"
+    },
+    "zone": "常温",
+    "tags": [
+      "常温",
+      "温度",
+      "工业"
+    ]
+  },
+  {
     "id": "temperature.gallium-melting",
     "title": "镓熔点",
     "titleEn": "Gallium melting point fixed reference",
@@ -3157,6 +3305,43 @@
       "常温",
       "温度",
       "日常"
+    ]
+  },
+  {
+    "id": "temperature.marine-heatwave",
+    "title": "海洋热浪：30 ℃海表的异常持续",
+    "titleEn": "Marine heatwave at 30 °C",
+    "dimension": "temperature",
+    "category": "常温",
+    "summary": "海洋热浪是海表温度连续多日显著高于当地季节基准的异常事件；30 ℃只是一个暖水示例，是否成灾要看持续时间、范围和生态背景。",
+    "quantity": {
+      "value": 303,
+      "unit": "K",
+      "measure": "30 ℃海表示例",
+      "approximate": true,
+      "measureLabel": "303 K（30 ℃海表示例）"
+    },
+    "displayValue": "303 K（30 ℃海表示例）",
+    "reviewStatus": "reviewed",
+    "conditions": {
+      "medium": "海水",
+      "measurementSite": "海表或近表层",
+      "duration": "连续多日到数月",
+      "basis": "相对当地季节基准的异常，不是单一绝对温度"
+    },
+    "visual": {
+      "template": "planet-environment",
+      "profile": "ocean",
+      "caption": "暖水海表、云层与海洋热浪的示意",
+      "note": "画面为解释性示意，非按比例、非观测重建；颜色、粒子、光晕与流动均为讲解服务，不代表真实测量。",
+      "color": "#4f8fa8",
+      "scene": "temperature.object"
+    },
+    "zone": "常温",
+    "tags": [
+      "常温",
+      "温度",
+      "环境"
     ]
   },
   {
@@ -3263,6 +3448,80 @@
       "常温",
       "温度",
       "日常"
+    ]
+  },
+  {
+    "id": "temperature.urban-heat-island",
+    "title": "城市热岛：35 ℃的街区温差",
+    "titleEn": "Urban heat island at 35 °C",
+    "dimension": "temperature",
+    "category": "高温",
+    "summary": "城市热岛是城市建成区温度高于周边乡村的现象；35 ℃可以是夏季午后街区气温示例，真正要比较的是同一时刻城郊温差与地表材质。",
+    "quantity": {
+      "value": 308,
+      "unit": "K",
+      "measure": "35 ℃街区示例",
+      "approximate": true,
+      "measureLabel": "308 K（35 ℃街区示例）"
+    },
+    "displayValue": "308 K（35 ℃街区示例）",
+    "reviewStatus": "reviewed",
+    "conditions": {
+      "medium": "近地面空气与地表",
+      "measurementSite": "城市街区百叶箱或地表遥感",
+      "duration": "午后至夜间，随天气变化",
+      "basis": "城郊同时刻对比，不是全球平均"
+    },
+    "visual": {
+      "template": "heat-map",
+      "profile": "urban",
+      "caption": "沥青、混凝土与绿地之间的城市温差示意",
+      "note": "画面为解释性示意，非按比例、非观测重建；颜色、粒子、光晕与流动均为讲解服务，不代表真实测量。",
+      "color": "#b76b4f",
+      "scene": "temperature.object"
+    },
+    "zone": "高温",
+    "tags": [
+      "高温",
+      "温度",
+      "环境"
+    ]
+  },
+  {
+    "id": "temperature.wet-bulb-temperature",
+    "title": "湿球温度 35 ℃：热应激的物理上限",
+    "titleEn": "Wet-bulb temperature at 35 °C",
+    "dimension": "temperature",
+    "category": "高温",
+    "summary": "湿球温度 35 ℃ 是湿热环境中接近人体散热上限的理论阈值；它不等于气温 35 ℃，也不代表所有人都会在同一时刻中暑。",
+    "quantity": {
+      "value": 308,
+      "unit": "K",
+      "measure": "35 ℃湿球温度",
+      "approximate": true,
+      "measureLabel": "308 K（35 ℃湿球温度）"
+    },
+    "displayValue": "308 K（35 ℃湿球温度）",
+    "reviewStatus": "reviewed",
+    "conditions": {
+      "medium": "空气",
+      "measurementSite": "遮阳、通风、湿球温度计球部",
+      "humidity": "接近饱和或高湿",
+      "basis": "湿球温度，不是干球气温"
+    },
+    "visual": {
+      "template": "heat-map",
+      "profile": "humid-heat",
+      "caption": "湿润环境中的蒸发散热与湿球温度示意",
+      "note": "画面为解释性示意，非按比例、非观测重建；颜色、粒子、光晕与流动均为讲解服务，不代表真实测量。",
+      "color": "#c46b4e",
+      "scene": "temperature.object"
+    },
+    "zone": "高温",
+    "tags": [
+      "高温",
+      "温度",
+      "环境"
     ]
   },
   {
@@ -3438,6 +3697,43 @@
       "中温",
       "温度",
       "日常"
+    ]
+  },
+  {
+    "id": "temperature.heatstroke-core",
+    "title": "热射病核心温度：40 ℃的急症阈值",
+    "titleEn": "Heatstroke core temperature at 40 °C",
+    "dimension": "temperature",
+    "category": "高温",
+    "summary": "热射病常以核心温度超过 40 ℃并伴中枢神经异常为临床标志；40 ℃是急症阈值示例，不是普通发烧的通用界线，也不能单凭体表温度判断。",
+    "quantity": {
+      "value": 313.15,
+      "unit": "K",
+      "measure": "40 ℃核心温度示例",
+      "approximate": true,
+      "measureLabel": "313.15 K（40 ℃核心温度示例）"
+    },
+    "displayValue": "313.15 K（40 ℃核心温度示例）",
+    "reviewStatus": "reviewed",
+    "conditions": {
+      "medium": "人体核心",
+      "measurementSite": "直肠、食管或膀胱等核心温度",
+      "duration": "急症评估时刻",
+      "basis": "临床核心温度，不是腋下或额温"
+    },
+    "visual": {
+      "template": "thermometer",
+      "profile": "medical",
+      "caption": "核心体温、散热失败与急救降温的示意",
+      "note": "画面为解释性示意，非按比例、非观测重建；颜色、粒子、光晕与流动均为讲解服务，不代表真实测量。",
+      "color": "#b4534a",
+      "scene": "temperature.object"
+    },
+    "zone": "高温",
+    "tags": [
+      "高温",
+      "温度",
+      "医疗"
     ]
   },
   {
@@ -3622,6 +3918,43 @@
     ]
   },
   {
+    "id": "temperature.legionella-hot-water",
+    "title": "军团菌与热水：60 ℃的储水温度",
+    "titleEn": "Legionella hot-water storage at 60 °C",
+    "dimension": "temperature",
+    "category": "高温",
+    "summary": "热水系统常建议把储水温度维持在 60 ℃以抑制军团菌，并在末端通过混水阀防止烫伤；60 ℃是风险管理示例，不是所有管路统一的杀菌温度。",
+    "quantity": {
+      "value": 333.15,
+      "unit": "K",
+      "measure": "60 ℃热水储水示例",
+      "approximate": true,
+      "measureLabel": "333.15 K（60 ℃热水储水示例）"
+    },
+    "displayValue": "333.15 K（60 ℃热水储水示例）",
+    "reviewStatus": "reviewed",
+    "conditions": {
+      "medium": "生活热水与管路生物膜",
+      "measurementSite": "储水罐出口与最远端",
+      "duration": "持续运行与定期热冲击",
+      "basis": "风险管理温度，不是临床治疗温度"
+    },
+    "visual": {
+      "template": "thermometer",
+      "profile": "hot-water",
+      "caption": "热水储罐、管路与混水阀的示意",
+      "note": "画面为解释性示意，非按比例、非观测重建；颜色、粒子、光晕与流动均为讲解服务，不代表真实测量。",
+      "color": "#b36f4d",
+      "scene": "temperature.object"
+    },
+    "zone": "高温",
+    "tags": [
+      "高温",
+      "温度",
+      "环境"
+    ]
+  },
+  {
     "id": "temperature.desert-ground",
     "title": "沙漠地表",
     "titleEn": "Desert land surface temperature",
@@ -3687,6 +4020,43 @@
       "中温",
       "温度",
       "日常"
+    ]
+  },
+  {
+    "id": "temperature.pasteurization",
+    "title": "巴氏杀菌：72 ℃的短时热处理",
+    "titleEn": "High-temperature short-time pasteurization at 72 °C",
+    "dimension": "temperature",
+    "category": "高温",
+    "summary": "高温短时巴氏杀菌常用约 72 ℃、15 秒的组合处理液体食品；它降低病原体风险，但不是完全灭菌，也不能把已变质食品变安全。",
+    "quantity": {
+      "value": 345.15,
+      "unit": "K",
+      "measure": "72 ℃巴氏杀菌示例",
+      "approximate": true,
+      "measureLabel": "345.15 K（72 ℃巴氏杀菌示例）"
+    },
+    "displayValue": "345.15 K（72 ℃巴氏杀菌示例）",
+    "reviewStatus": "reviewed",
+    "conditions": {
+      "medium": "液体食品（以牛奶为例）",
+      "measurementSite": "换热器出口与保持管",
+      "duration": "约 15 秒",
+      "basis": "HTST 工艺示例，不是所有产品统一参数"
+    },
+    "visual": {
+      "template": "kitchen",
+      "profile": "pasteurization",
+      "caption": "牛奶、换热器与温度保持管的示意",
+      "note": "画面为解释性示意，非按比例、非观测重建；颜色、粒子、光晕与流动均为讲解服务，不代表真实测量。",
+      "color": "#c58a4f",
+      "scene": "temperature.object"
+    },
+    "zone": "高温",
+    "tags": [
+      "高温",
+      "温度",
+      "环境"
     ]
   },
   {
@@ -3831,6 +4201,43 @@
       "中温",
       "温度",
       "日常"
+    ]
+  },
+  {
+    "id": "temperature.hydrogen-fuel-cell",
+    "title": "氢燃料电池：80 ℃的运行温度",
+    "titleEn": "Hydrogen fuel cell operating at 80 °C",
+    "dimension": "temperature",
+    "category": "高温",
+    "summary": "质子交换膜氢燃料电池常运行在约 60—80 ℃；80 ℃是示例，不是所有电堆的统一温度，它受膜材料、冷却与负载控制。",
+    "quantity": {
+      "value": 353.15,
+      "unit": "K",
+      "measure": "80 ℃运行示例",
+      "approximate": true,
+      "measureLabel": "353.15 K（80 ℃运行示例）"
+    },
+    "displayValue": "353.15 K（80 ℃运行示例）",
+    "reviewStatus": "reviewed",
+    "conditions": {
+      "medium": "质子交换膜电堆",
+      "measurementSite": "电堆冷却液出口或膜电极",
+      "duration": "稳定负载工况",
+      "basis": "PEMFC 运行温度示例，不是环境温度"
+    },
+    "visual": {
+      "template": "metal-furnace",
+      "profile": "fuel-cell",
+      "caption": "电堆、双极板与冷却回路的示意",
+      "note": "画面为解释性示意，非按比例、非观测重建；颜色、粒子、光晕与流动均为讲解服务，不代表真实测量。",
+      "color": "#6f8c9f",
+      "scene": "temperature.object"
+    },
+    "zone": "高温",
+    "tags": [
+      "高温",
+      "温度",
+      "环境"
     ]
   },
   {
@@ -4018,6 +4425,43 @@
     "conceptGroup": "moon"
   },
   {
+    "id": "temperature.sterilization-autoclave",
+    "title": "高压蒸汽灭菌：121 ℃的医疗标准",
+    "titleEn": "Autoclave sterilization at 121 °C",
+    "dimension": "temperature",
+    "category": "高温",
+    "summary": "高压蒸汽灭菌常用 121 ℃、15—20 分钟的组合杀灭包括芽孢在内的微生物；121 ℃是饱和蒸汽压力下的示例，不是干热灭菌或所有器械的统一参数。",
+    "quantity": {
+      "value": 394.15,
+      "unit": "K",
+      "measure": "121 ℃高压蒸汽示例",
+      "approximate": true,
+      "measureLabel": "394.15 K（121 ℃高压蒸汽示例）"
+    },
+    "displayValue": "394.15 K（121 ℃高压蒸汽示例）",
+    "reviewStatus": "reviewed",
+    "conditions": {
+      "medium": "饱和蒸汽与器械表面",
+      "measurementSite": "灭菌腔内部",
+      "duration": "约 15—20 分钟",
+      "basis": "121 ℃饱和蒸汽，按器械与包装验证"
+    },
+    "visual": {
+      "template": "metal-furnace",
+      "profile": "autoclave",
+      "caption": "高压灭菌锅、蒸汽与器械托盘的示意",
+      "note": "画面为解释性示意，非按比例、非观测重建；颜色、粒子、光晕与流动均为讲解服务，不代表真实测量。",
+      "color": "#9d6a50",
+      "scene": "temperature.object"
+    },
+    "zone": "高温",
+    "tags": [
+      "高温",
+      "温度",
+      "环境"
+    ]
+  },
+  {
     "id": "temperature.led-junction",
     "title": "LED 结温",
     "titleEn": "LED junction temperature",
@@ -4053,6 +4497,43 @@
       "中温",
       "温度",
       "量子与粒子"
+    ]
+  },
+  {
+    "id": "temperature.battery-thermal-runaway",
+    "title": "电池热失控：150 ℃的链式升温",
+    "titleEn": "Battery thermal runaway at 150 °C",
+    "dimension": "temperature",
+    "category": "高温",
+    "summary": "锂离子电池热失控常从约 80—150 ℃的异常升温开始，150 ℃是链式反应示例；它不是所有电池统一的起爆温度，也不等于火焰温度。",
+    "quantity": {
+      "value": 423.15,
+      "unit": "K",
+      "measure": "150 ℃热失控示例",
+      "approximate": true,
+      "measureLabel": "423.15 K（150 ℃热失控示例）"
+    },
+    "displayValue": "423.15 K（150 ℃热失控示例）",
+    "reviewStatus": "reviewed",
+    "conditions": {
+      "medium": "锂离子电芯内部与模组",
+      "measurementSite": "电芯表面或内部热电偶",
+      "duration": "从异常升温到热失控",
+      "basis": "特定化学体系与荷电状态，不是通用阈值"
+    },
+    "visual": {
+      "template": "metal-furnace",
+      "profile": "battery",
+      "caption": "电芯、隔膜与热失控链式反应的示意",
+      "note": "画面为解释性示意，非按比例、非观测重建；颜色、粒子、光晕与流动均为讲解服务，不代表真实测量。",
+      "color": "#b45d43",
+      "scene": "temperature.object"
+    },
+    "zone": "高温",
+    "tags": [
+      "高温",
+      "温度",
+      "工业"
     ]
   },
   {

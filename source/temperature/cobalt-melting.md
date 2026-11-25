@@ -20,6 +20,7 @@ related:
   - temperature.nickel-melting
   - temperature.titanium-melting
   - temperature.steelmaking_temp
+  - space.volcano
 reviewStatus: reviewed
 sources:
   - title: 'Cobalt: the essentials'

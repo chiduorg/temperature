@@ -20,6 +20,7 @@ related:
   - temperature.paper-autoignition
   - temperature.boiling-water
   - temperature.forest-fire
+  - space.volcano
 reviewStatus: reviewed
 sources:
   - title: A citizen's guide to incineration

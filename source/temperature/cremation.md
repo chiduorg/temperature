@@ -19,6 +19,7 @@ related:
   - temperature.cement-kiln
   - temperature.human-body-temperature
   - temperature.boiling-water
+  - space.volcano
 reviewStatus: reviewed
 sources:
   - title: Key stages of the cremation process
@@ -33,6 +34,10 @@ sources:
       Australian Government Department of Sustainability, Environment, Water,
       Population and Communities
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 火化机主燃室与再燃室、遗体与棺木、燃气或电加热；温度指炉膛控制/烟气温度。 设备是否带尾气治理、炉型、装载量和燃烧阶段都会影响实际温度。
 review:
   method: source-check
@@ -79,3 +84,5 @@ tags:
 ## 与其他温区的关系
 
 1,073 K 高于水的沸点 373 K 和纸的自动点火温度约 505 K，低于垃圾焚烧炉的约 1,273 K 和水泥窑的 1,723 K。它足以分解有机物并煅烧骨骼，但不会熔化铁制随葬品。[2]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]
