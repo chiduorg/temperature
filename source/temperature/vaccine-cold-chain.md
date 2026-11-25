@@ -22,7 +22,7 @@ related:
 reviewStatus: reviewed
 sources:
   - title: Vaccine cold chain
-    url: 'https://www.who.int/news-room/fact-sheets/detail/vaccine-cold-chain'
+    url: 'https://www.who.int/teams/immunization-vaccines-and-biologicals/essential-programme-on-immunization/supply-chain/guidanceandtools'
     publisher: World Health Organization
     accessed: '2026-11-23'
   - title: Vaccine Storage and Handling

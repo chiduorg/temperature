@@ -25,9 +25,9 @@ sources:
     url: 'https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-11/'
     publisher: IPCC AR6 WG1
     accessed: '2026-11-23'
-  - title: Wet-bulb temperature
-    url: 'https://www.noaa.gov/jetstream/global/wet-bulb-temperature'
-    publisher: NOAA JetStream
+  - title: "Too Hot to Handle: How Climate Change May Make Some Places Too Hot to Live"
+    url: 'https://science.nasa.gov/earth/climate-change/too-hot-to-handle-how-climate-change-may-make-some-places-too-hot-to-live/'
+    publisher: "NASA Science"
     accessed: '2026-11-23'
   - title: "Temperature measurement"
     url: "https://www.medlineplus.gov/ency/article/003400.htm"

@@ -21,22 +21,22 @@ related:
   - mass.water-molecule
 reviewStatus: reviewed
 sources:
-  - title: What You Need to Know About Pasteurization
+  - title: "Raw Milk Questions & Answers"
     url: >-
-      https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-pasteurization
-    publisher: US FDA
+      https://www.fda.gov/food/buy-store-serve-safe-food/raw-milk-questions-answers
+    publisher: "US FDA"
     accessed: '2026-11-23'
   - title: Pasteurization
     url: >-
       https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/pasteurization
     publisher: USDA FSIS
     accessed: '2026-11-23'
-  - title: "Sterilization and Disinfection of Patient-Care Items"
-    url: "https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/index.html"
+  - title: "Recommendations for Disinfection and Sterilization in Healthcare Facilities"
+    url: "https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/summary-recommendations.html"
     publisher: "US CDC"
     accessed: '2026-11-24'
-  - title: "Decontamination and Reprocessing of Medical Devices"
-    url: "https://www.who.int/publications/i/item/9789241511788"
+  - title: "Decontamination and reprocessing of medical devices for health-care facilities"
+    url: "https://www.who.int/westernpacific/publications/i/item/9789241549851"
     publisher: "World Health Organization"
     accessed: '2026-11-24'
 conditions:

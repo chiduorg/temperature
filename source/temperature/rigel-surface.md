@@ -29,8 +29,8 @@ sources:
     url: 'https://svs.gsfc.nasa.gov/14374'
     publisher: NASA Scientific Visualization Studio
     accessed: '2026-11-06'
-  - title: The Spectral Sequence
-    url: 'https://openstax.org/books/astronomy-2e/pages/17-3-the-spectral-sequence'
+  - title: The Spectra of Stars (and Brown Dwarfs)
+    url: 'https://openstax.org/books/astronomy-2e/pages/17-3-the-spectra-of-stars-and-brown-dwarfs'
     publisher: OpenStax Astronomy 2e（CC BY 4.0）
     accessed: '2026-11-07'
   - title: Rigel

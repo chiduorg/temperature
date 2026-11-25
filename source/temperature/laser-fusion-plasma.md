@@ -26,9 +26,9 @@ sources:
     url: 'https://lasers.llnl.gov/about/how-nif-works/target-chamber'
     publisher: Lawrence Livermore National Laboratory
     accessed: '2026-11-07'
-  - title: 'Targeting the future of fusion'
-    url: 'https://www.lanl.gov/media/publications/national-security-science/targeting-the-future-of-fusion'
-    publisher: Los Alamos National Laboratory
+  - title: "Achieving Fusion Ignition"
+    url: 'https://lmf.llnl.gov/science/achieving-fusion-ignition'
+    publisher: "Lawrence Livermore National Laboratory"
     accessed: '2026-11-07'
   - title: 'SI base unit: kelvin (K)'
     url: 'https://www.bipm.org/en/si-base-units/kelvin'

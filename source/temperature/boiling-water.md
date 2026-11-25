@@ -33,8 +33,8 @@ sources:
     url: "https://www.bipm.org/documents/20126/41489682/SI-App2-kelvin.pdf/"
     publisher: "BIPM"
     accessed: '2026-11-24'
-  - title: "What You Need to Know About Pasteurization"
-    url: "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-pasteurization"
+  - title: "Raw Milk Questions & Answers"
+    url: "https://www.fda.gov/food/buy-store-serve-safe-food/raw-milk-questions-answers"
     publisher: "US FDA"
     accessed: '2026-11-24'
 legacy:

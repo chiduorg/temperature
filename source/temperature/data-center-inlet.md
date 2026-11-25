@@ -23,9 +23,9 @@ sources:
     url: 'https://www.ashrae.org/technical-resources/bookstore/datacom-series'
     publisher: ASHRAE
     accessed: '2026-11-23'
-  - title: Data Center Cooling
-    url: 'https://www.energy.gov/eere/buildings/data-center-cooling'
-    publisher: US Department of Energy
+  - title: "New Cooling Method for Supercomputers to Save Millions of Gallons of Water"
+    url: 'https://www.energy.gov/technologycommercialization/articles/new-cooling-method-supercomputers-save-millions-gallons-water'
+    publisher: "US Department of Energy"
     accessed: '2026-11-23'
   - title: 'SI base unit: kelvin (K)'
     url: 'https://www.bipm.org/en/si-base-units/kelvin'
@@ -83,3 +83,10 @@ ASHRAE 的 datacom 系列按设备等级给出温湿度允许范围，行业常�
 实际运维还要同时看湿度与露点：过低湿度会增加静电风险，过高则可能结露。[1][2]
 
 本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 291.1 K，即 18 ℃（按 T/K−273.15 换算）；约为室温（293 K）的 0.994 倍。这把尺子只改写单位，不改变量值；它把本条固定在温度轴的 10² 量级附近。
+
+读图时先看量级，再看倍数：10² 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

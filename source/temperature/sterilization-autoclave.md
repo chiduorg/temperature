@@ -20,14 +20,14 @@ related:
   - space.human
 reviewStatus: reviewed
 sources:
-  - title: Sterilization and Disinfection of Patient-Care Items
+  - title: "Recommendations for Disinfection and Sterilization in Healthcare Facilities"
     url: >-
-      https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/index.html
-    publisher: US CDC
+      https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/summary-recommendations.html
+    publisher: "US CDC"
     accessed: '2026-11-23'
-  - title: Decontamination and Reprocessing of Medical Devices
-    url: 'https://www.who.int/publications/i/item/9789241511788'
-    publisher: World Health Organization
+  - title: "Decontamination and reprocessing of medical devices for health-care facilities"
+    url: 'https://www.who.int/westernpacific/publications/i/item/9789241549851'
+    publisher: "World Health Organization"
     accessed: '2026-11-23'
   - title: 'SI base unit: kelvin (K)'
     url: 'https://www.bipm.org/en/si-base-units/kelvin'
@@ -88,3 +88,10 @@ tags:
 灭菌结束后还要做生物指示剂或化学指示卡验证，不能仅凭温度曲线放行。[1][2]
 
 本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 394.1 K，即 121 ℃（按 T/K−273.15 换算）；约为水的沸点（373.1 K）的 1.06 倍。这把尺子只改写单位，不改变量值；它把本条固定在温度轴的 10² 量级附近。
+
+读图时先看量级，再看倍数：10² 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。
