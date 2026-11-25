@@ -135,6 +135,65 @@
     ]
   },
   {
+    "id": "temperature.bose-einstein-x1p5",
+    "title": "玻色-爱因斯坦凝聚 × 1.5：一次尺度换算",
+    "titleEn": "Bose–Einstein condensation × 1.5",
+    "summary": "以「玻色-爱因斯坦凝聚」的 1.700×10^-07 K 为基准，按 ×1.5 换算得到 2.550×10^-07 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "temperature",
+    "category": "极低温",
+    "displayValue": "2.550×10^-07 K（约 -273.15 °C）",
+    "quantity": {
+      "value": 2.55e-7,
+      "unit": "K",
+      "measure": "尺度换算量：temperature.bose-einstein 的 1.700×10^-07 K × 1.5",
+      "measureLabel": "由「玻色-爱因斯坦凝聚」按 ×1.5 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 temperature.bose-einstein 的既有量值 1.700×10^-07 K 为基准，倍率 1.5；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "cryo-instrument",
+      "scene": "temperature.bose-einstein",
+      "caption": "玻色-爱因斯坦凝聚 × 1.5：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。"
+    }
+  },
+  {
+    "id": "temperature.hawking-temperature-x100",
+    "title": "霍金温度 × 100：一次尺度换算",
+    "titleEn": "Hawking temperature × 100",
+    "summary": "以「霍金温度」的 6.200×10^-09 K 为基准，按 ×100 换算得到 6.200×10^-07 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "temperature",
+    "category": "极低温",
+    "displayValue": "6.200×10^-07 K（约 -273.15 °C）",
+    "quantity": {
+      "value": 6.2e-7,
+      "unit": "K",
+      "measure": "尺度换算量：temperature.hawking-temperature 的 6.200×10^-09 K × 100",
+      "measureLabel": "由「霍金温度」按 ×100 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 temperature.hawking-temperature 的既有量值 6.200×10^-09 K 为基准，倍率 100；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "compact-star",
+      "scene": "temperature.object",
+      "caption": "霍金温度 × 100：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#c9a6e8"
+    }
+  },
+  {
     "id": "temperature.laser-cooling",
     "title": "激光冷却",
     "titleEn": "Laser cooling",
@@ -201,6 +260,36 @@
       "温度",
       "日常"
     ]
+  },
+  {
+    "id": "temperature.laser-cooling-x10",
+    "title": "激光冷却 × 10：一次尺度换算",
+    "titleEn": "Laser cooling × 10",
+    "summary": "以「激光冷却」的 1.000×10^-06 K 为基准，按 ×10 换算得到 1.000×10^-05 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "temperature",
+    "category": "极低温",
+    "displayValue": "1.000×10^-05 K（约 -273.15 °C）",
+    "quantity": {
+      "value": 0.000009999999999999999,
+      "unit": "K",
+      "measure": "尺度换算量：temperature.laser-cooling 的 1.000×10^-06 K × 10",
+      "measureLabel": "由「激光冷却」按 ×10 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 temperature.laser-cooling 的既有量值 1.000×10^-06 K 为基准，倍率 10；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "cryo-instrument",
+      "scene": "temperature.object",
+      "caption": "激光冷却 × 10：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#9cc7e8"
+    }
   },
   {
     "id": "temperature.nuclear-demagnetization-cooling",
@@ -353,6 +442,66 @@
     ]
   },
   {
+    "id": "temperature.cmb-x0p01",
+    "title": "宇宙微波背景辐射 × 0.01（缩小）：一次尺度换算",
+    "titleEn": "Cosmic microwave background × 0.01",
+    "summary": "以「宇宙微波背景辐射」的 2.725 K 为基准，按 ×0.01 换算得到 0.02725 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "temperature",
+    "category": "恒星与宇宙极端",
+    "displayValue": "0.02725 K（约 -273.123 °C）",
+    "quantity": {
+      "value": 0.02725,
+      "unit": "K",
+      "measure": "尺度换算量：temperature.cmb 的 2.725 K × 0.01",
+      "measureLabel": "由「宇宙微波背景辐射」按 ×0.01 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 temperature.cmb 的既有量值 2.725 K 为基准，倍率 0.01；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "radiation-field",
+      "scene": "temperature.object",
+      "caption": "宇宙微波背景辐射 × 0.01（缩小）：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#9ac6df"
+    }
+  },
+  {
+    "id": "temperature.liquid-helium-x0p01",
+    "title": "液氦沸点 × 0.01（缩小）：一次尺度换算",
+    "titleEn": "Liquid helium normal boiling point × 0.01",
+    "summary": "以「液氦沸点」的 4.22 K 为基准，按 ×0.01 换算得到 0.0422 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "temperature",
+    "category": "极低温",
+    "displayValue": "0.0422 K（约 -273.108 °C）",
+    "quantity": {
+      "value": 0.0422,
+      "unit": "K",
+      "measure": "尺度换算量：temperature.liquid-helium 的 4.22 K × 0.01",
+      "measureLabel": "由「液氦沸点」按 ×0.01 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 temperature.liquid-helium 的既有量值 4.22 K 为基准，倍率 0.01；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "phase-vessel",
+      "scene": "temperature.object",
+      "caption": "液氦沸点 × 0.01（缩小）：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#a9cfe2"
+    }
+  },
+  {
     "id": "temperature.boomerang-nebula",
     "title": "回力棒星云",
     "titleEn": "Boomerang Nebula ultracold outflow",
@@ -431,6 +580,36 @@
       "温度",
       "日常"
     ]
+  },
+  {
+    "id": "temperature.helium-4-lambda-point-x0p5",
+    "title": "氦-4 λ 点 × 0.5（缩小）：一次尺度换算",
+    "titleEn": "Helium-4 lambda point × 0.5",
+    "summary": "以「氦-4 λ 点」的 2.177 K 为基准，按 ×0.5 换算得到 1.0885 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "temperature",
+    "category": "极低温",
+    "displayValue": "1.0885 K（约 -272.061 °C）",
+    "quantity": {
+      "value": 1.0885,
+      "unit": "K",
+      "measure": "尺度换算量：temperature.helium-4-lambda-point 的 2.177 K × 0.5",
+      "measureLabel": "由「氦-4 λ 点」按 ×0.5 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 temperature.helium-4-lambda-point 的既有量值 2.177 K 为基准，倍率 0.5；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "thermometer",
+      "scene": "temperature.object",
+      "caption": "氦-4 λ 点 × 0.5（缩小）：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#9fc9dd"
+    }
   },
   {
     "id": "temperature.neutrino-background-temp",
@@ -611,6 +790,34 @@
       "温度",
       "日常"
     ]
+  },
+  {
+    "id": "temperature.human-body-temperature-x0p01",
+    "title": "人体体温 × 0.01（缩小）：一次尺度换算",
+    "titleEn": "Human body temperature × 0.01",
+    "summary": "以「人体体温」的 310.15 K 为基准，按 ×0.01 换算得到 3.1015 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "temperature",
+    "category": "常温",
+    "displayValue": "3.1015 K（约 -270.048 °C）",
+    "quantity": {
+      "value": 3.1014999999999997,
+      "unit": "K",
+      "measure": "尺度换算量：temperature.human-body-temperature 的 310.15 K × 0.01",
+      "measureLabel": "由「人体体温」按 ×0.01 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 temperature.human-body-temperature 的既有量值 310.15 K 为基准，倍率 0.01；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "scene": "temperature.human-body",
+      "caption": "人体体温 × 0.01（缩小）：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。"
+    }
   },
   {
     "id": "temperature.helium-3-boiling",
@@ -856,6 +1063,36 @@
     ]
   },
   {
+    "id": "temperature.niobium-superconducting-transition-x2",
+    "title": "铌超导转变 × 2：一次尺度换算",
+    "titleEn": "Niobium superconducting transition × 2",
+    "summary": "以「铌超导转变」的 9.2 K 为基准，按 ×2 换算得到 18.4 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "temperature",
+    "category": "低温",
+    "displayValue": "18.4 K（约 -254.75 °C）",
+    "quantity": {
+      "value": 18.4,
+      "unit": "K",
+      "measure": "尺度换算量：temperature.niobium-superconducting-transition 的 9.2 K × 2",
+      "measureLabel": "由「铌超导转变」按 ×2 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 temperature.niobium-superconducting-transition 的既有量值 9.2 K 为基准，倍率 2；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "superconducting-sample",
+      "scene": "temperature.object",
+      "caption": "铌超导转变 × 2：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#9fcfea"
+    }
+  },
+  {
     "id": "temperature.liquid-hydrogen",
     "title": "液氢温度",
     "titleEn": "Liquid hydrogen normal boiling reference",
@@ -1031,6 +1268,36 @@
       "温度",
       "行星"
     ]
+  },
+  {
+    "id": "temperature.fever-x0p1",
+    "title": "发热体温 × 0.1（缩小）：一次尺度换算",
+    "titleEn": "Fever body temperature reference × 0.1",
+    "summary": "以「发热体温」的 311.15 K 为基准，按 ×0.1 换算得到 31.115 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "temperature",
+    "category": "常温",
+    "displayValue": "31.115 K（约 -242.035 °C）",
+    "quantity": {
+      "value": 31.115,
+      "unit": "K",
+      "measure": "尺度换算量：temperature.fever 的 311.15 K × 0.1",
+      "measureLabel": "由「发热体温」按 ×0.1 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 temperature.fever 的既有量值 311.15 K 为基准，倍率 0.1；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "thermometer",
+      "scene": "temperature.object",
+      "caption": "发热体温 × 0.1（缩小）：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#d8825a"
+    }
   },
   {
     "id": "temperature.triton-surface",
@@ -1831,6 +2098,36 @@
     ]
   },
   {
+    "id": "temperature.ice-cream-freezer-x0p5",
+    "title": "冰淇淋冷冻机温度 × 0.5（缩小）：一次尺度换算",
+    "titleEn": "Ice cream freezer temperature × 0.5",
+    "summary": "以「冰淇淋冷冻机温度」的 255 K 为基准，按 ×0.5 换算得到 127.5 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "temperature",
+    "category": "低温",
+    "displayValue": "127.5 K（约 -145.65 °C）",
+    "quantity": {
+      "value": 127.5,
+      "unit": "K",
+      "measure": "尺度换算量：temperature.ice-cream-freezer 的 255 K × 0.5",
+      "measureLabel": "由「冰淇淋冷冻机温度」按 ×0.5 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 temperature.ice-cream-freezer 的既有量值 255 K 为基准，倍率 0.5；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "kitchen",
+      "scene": "temperature.object",
+      "caption": "冰淇淋冷冻机温度 × 0.5（缩小）：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#bcd6e0"
+    }
+  },
+  {
     "id": "temperature.callisto-surface",
     "title": "木卫四表面温度",
     "titleEn": "Callisto surface temperature",
@@ -1943,6 +2240,35 @@
     ]
   },
   {
+    "id": "temperature.sea-surface-x0p5",
+    "title": "海面平均温度 × 0.5（缩小）：一次尺度换算",
+    "titleEn": "Global mean sea surface temperature × 0.5",
+    "summary": "以「海面平均温度」的 290 K 为基准，按 ×0.5 换算得到 145 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "temperature",
+    "category": "常温",
+    "displayValue": "145 K（约 -128.15 °C）",
+    "quantity": {
+      "value": 145,
+      "unit": "K",
+      "measure": "尺度换算量：temperature.sea-surface 的 290 K × 0.5",
+      "measureLabel": "由「海面平均温度」按 ×0.5 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 temperature.sea-surface 的既有量值 290 K 为基准，倍率 0.5；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "planet-environment",
+      "scene": "temperature.object",
+      "caption": "海面平均温度 × 0.5（缩小）：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。"
+    }
+  },
+  {
     "id": "temperature.mars-night",
     "title": "火星夜侧",
     "titleEn": "Mars nightside surface temperature",
@@ -1983,6 +2309,35 @@
     "conceptGroup": "mars"
   },
   {
+    "id": "temperature.hot-spring-x0p5",
+    "title": "温泉 × 0.5（缩小）：一次尺度换算",
+    "titleEn": "Hot spring water temperature × 0.5",
+    "summary": "以「温泉」的 313 K 为基准，按 ×0.5 换算得到 156.5 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "temperature",
+    "category": "中温",
+    "displayValue": "156.5 K（约 -116.65 °C）",
+    "quantity": {
+      "value": 156.5,
+      "unit": "K",
+      "measure": "尺度换算量：temperature.hot-spring 的 313 K × 0.5",
+      "measureLabel": "由「温泉」按 ×0.5 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 temperature.hot-spring 的既有量值 313 K 为基准，倍率 0.5；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "planet-environment",
+      "scene": "temperature.object",
+      "caption": "温泉 × 0.5（缩小）：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。"
+    }
+  },
+  {
     "id": "temperature.jupiter-cloud",
     "title": "木星云顶",
     "titleEn": "Jupiter cloud-top temperature",
@@ -2021,6 +2376,35 @@
       "日常"
     ],
     "conceptGroup": "jupiter"
+  },
+  {
+    "id": "temperature.cement-kiln-x0p1",
+    "title": "水泥窑 × 0.1（缩小）：一次尺度换算",
+    "titleEn": "Cement rotary kiln burning zone × 0.1",
+    "summary": "以「水泥窑」的 1,723 K 为基准，按 ×0.1 换算得到 172.3 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "temperature",
+    "category": "高温",
+    "displayValue": "172.3 K（约 -100.85 °C）",
+    "quantity": {
+      "value": 172.3,
+      "unit": "K",
+      "measure": "尺度换算量：temperature.cement-kiln 的 1,723 K × 0.1",
+      "measureLabel": "由「水泥窑」按 ×0.1 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 temperature.cement-kiln 的既有量值 1,723 K 为基准，倍率 0.1；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "metal-furnace",
+      "scene": "temperature.object",
+      "caption": "水泥窑 × 0.1（缩小）：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。"
+    }
   },
   {
     "id": "temperature.antarctic_min_temp",
@@ -3560,6 +3944,34 @@
     ]
   },
   {
+    "id": "temperature.liquid-nitrogen-x4",
+    "title": "液氮温度 × 4：一次尺度换算",
+    "titleEn": "Liquid nitrogen × 4",
+    "summary": "以「液氮温度」的 77.34 K 为基准，按 ×4 换算得到 309.36 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "temperature",
+    "category": "低温",
+    "displayValue": "309.36 K（约 36.21 °C）",
+    "quantity": {
+      "value": 309.36,
+      "unit": "K",
+      "measure": "尺度换算量：temperature.liquid-nitrogen 的 77.34 K × 4",
+      "measureLabel": "由「液氮温度」按 ×4 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 temperature.liquid-nitrogen 的既有量值 77.34 K 为基准，倍率 4；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "scene": "temperature.liquid-nitrogen",
+      "caption": "液氮温度 × 4：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。"
+    }
+  },
+  {
     "id": "temperature.human-body-temperature",
     "title": "人体体温",
     "titleEn": "Human body temperature",
@@ -4703,6 +5115,36 @@
     ]
   },
   {
+    "id": "temperature.hypothermia-x1p5",
+    "title": "低体温阈值 × 1.5：一次尺度换算",
+    "titleEn": "Hypothermia core temperature threshold × 1.5",
+    "summary": "以「低体温阈值」的 308.15 K 为基准，按 ×1.5 换算得到 462.225 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "temperature",
+    "category": "常温",
+    "displayValue": "462.225 K（约 189.075 °C）",
+    "quantity": {
+      "value": 462.22499999999997,
+      "unit": "K",
+      "measure": "尺度换算量：temperature.hypothermia 的 308.15 K × 1.5",
+      "measureLabel": "由「低体温阈值」按 ×1.5 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 temperature.hypothermia 的既有量值 308.15 K 为基准，倍率 1.5；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "thermometer",
+      "scene": "temperature.object",
+      "caption": "低体温阈值 × 1.5：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#d8825a"
+    }
+  },
+  {
     "id": "temperature.3d-printer-nozzle",
     "title": "3D 打印喷嘴",
     "titleEn": "FDM 3D printer nozzle temperature",
@@ -4837,6 +5279,35 @@
       "温度",
       "日常"
     ]
+  },
+  {
+    "id": "temperature.deep-ocean-x2",
+    "title": "深海温度 × 2：一次尺度换算",
+    "titleEn": "Deep ocean water temperature × 2",
+    "summary": "以「深海温度」的 275 K 为基准，按 ×2 换算得到 550 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "temperature",
+    "category": "低温",
+    "displayValue": "550 K（约 276.85 °C）",
+    "quantity": {
+      "value": 550,
+      "unit": "K",
+      "measure": "尺度换算量：temperature.deep-ocean 的 275 K × 2",
+      "measureLabel": "由「深海温度」按 ×2 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 temperature.deep-ocean 的既有量值 275 K 为基准，倍率 2；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "planet-environment",
+      "scene": "temperature.object",
+      "caption": "深海温度 × 2：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。"
+    }
   },
   {
     "id": "temperature.lead-melting-point",
@@ -5444,6 +5915,36 @@
     ]
   },
   {
+    "id": "temperature.vaccine-cold-chain-x4",
+    "title": "疫苗冷链：2—8 ℃的保存窗口 × 4：一次尺度换算",
+    "titleEn": "Vaccine cold chain at 2–8 °C × 4",
+    "summary": "以「疫苗冷链：2—8 ℃的保存窗口」的 278.15 K 为基准，按 ×4 换算得到 1,112.6 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "temperature",
+    "category": "常温",
+    "displayValue": "1,112.6 K（约 839.45 °C）",
+    "quantity": {
+      "value": 1112.6,
+      "unit": "K",
+      "measure": "尺度换算量：temperature.vaccine-cold-chain 的 278.15 K × 4",
+      "measureLabel": "由「疫苗冷链：2—8 ℃的保存窗口」按 ×4 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 temperature.vaccine-cold-chain 的既有量值 278.15 K 为基准，倍率 4；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "thermometer",
+      "scene": "temperature.object",
+      "caption": "疫苗冷链：2—8 ℃的保存窗口 × 4：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#5e92ab"
+    }
+  },
+  {
     "id": "temperature.brass-melting",
     "title": "黄铜熔化",
     "titleEn": "Brass melting range",
@@ -5770,6 +6271,34 @@
       "温度",
       "日常"
     ]
+  },
+  {
+    "id": "temperature.boiling-water-x4",
+    "title": "水的沸点 × 4：一次尺度换算",
+    "titleEn": "Boiling water × 4",
+    "summary": "以「水的沸点」的 373.15 K 为基准，按 ×4 换算得到 1,492.6 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "temperature",
+    "category": "常温",
+    "displayValue": "1,492.6 K（约 1,219.45 °C）",
+    "quantity": {
+      "value": 1492.6,
+      "unit": "K",
+      "measure": "尺度换算量：temperature.boiling-water 的 373.15 K × 4",
+      "measureLabel": "由「水的沸点」按 ×4 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 temperature.boiling-water 的既有量值 373.15 K 为基准，倍率 4；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "scene": "temperature.boiling-water",
+      "caption": "水的沸点 × 4：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。"
+    }
   },
   {
     "id": "temperature.pottery-kiln",
@@ -6321,6 +6850,35 @@
     ]
   },
   {
+    "id": "temperature.salt-melting-x2",
+    "title": "食盐熔化 × 2：一次尺度换算",
+    "titleEn": "Sodium chloride melting point × 2",
+    "summary": "以「食盐熔化」的 1,074 K 为基准，按 ×2 换算得到 2,148 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "temperature",
+    "category": "高温",
+    "displayValue": "2,148 K（约 1,874.85 °C）",
+    "quantity": {
+      "value": 2148,
+      "unit": "K",
+      "measure": "尺度换算量：temperature.salt-melting 的 1,074 K × 2",
+      "measureLabel": "由「食盐熔化」按 ×2 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 temperature.salt-melting 的既有量值 1,074 K 为基准，倍率 2；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "phase-vessel",
+      "scene": "temperature.object",
+      "caption": "食盐熔化 × 2：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。"
+    }
+  },
+  {
     "id": "temperature.chromium-melting",
     "title": "铬熔点",
     "titleEn": "Chromium melting point",
@@ -6387,6 +6945,36 @@
       "温度",
       "日常"
     ]
+  },
+  {
+    "id": "temperature.lightning-x0p1",
+    "title": "闪电 × 0.1（缩小）：一次尺度换算",
+    "titleEn": "Air heated by lightning × 0.1",
+    "summary": "以「闪电」的 28,033.2 K 为基准，按 ×0.1 换算得到 2,803.32 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "temperature",
+    "category": "高温",
+    "displayValue": "2,803.32 K（约 2,530.17 °C）",
+    "quantity": {
+      "value": 2803.3150000000005,
+      "unit": "K",
+      "measure": "尺度换算量：temperature.lightning 的 28,033.2 K × 0.1",
+      "measureLabel": "由「闪电」按 ×0.1 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 temperature.lightning 的既有量值 28,033.2 K 为基准，倍率 0.1；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "planet-environment",
+      "scene": "temperature.object",
+      "caption": "闪电 × 0.1（缩小）：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#b5d5ff"
+    }
   },
   {
     "id": "temperature.agb-surface",
@@ -6465,6 +7053,66 @@
       "温度",
       "天体"
     ]
+  },
+  {
+    "id": "temperature.forest-fire-x3",
+    "title": "森林大火 × 3：一次尺度换算",
+    "titleEn": "Wildfire flame temperature × 3",
+    "summary": "以「森林大火」的 1,073 K 为基准，按 ×3 换算得到 3,219 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "temperature",
+    "category": "高温",
+    "displayValue": "3,219 K（约 2,945.85 °C）",
+    "quantity": {
+      "value": 3219,
+      "unit": "K",
+      "measure": "尺度换算量：temperature.forest-fire 的 1,073 K × 3",
+      "measureLabel": "由「森林大火」按 ×3 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 temperature.forest-fire 的既有量值 1,073 K 为基准，倍率 3；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "combustion",
+      "scene": "temperature.object",
+      "caption": "森林大火 × 3：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#e0834f"
+    }
+  },
+  {
+    "id": "temperature.pasteurization-x10",
+    "title": "巴氏杀菌：72 ℃的短时热处理 × 10：一次尺度换算",
+    "titleEn": "High-temperature short-time pasteurization at 72 °C × 10",
+    "summary": "以「巴氏杀菌：72 ℃的短时热处理」的 345.15 K 为基准，按 ×10 换算得到 3,451.5 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "temperature",
+    "category": "高温",
+    "displayValue": "3,451.5 K（约 3,178.35 °C）",
+    "quantity": {
+      "value": 3451.5,
+      "unit": "K",
+      "measure": "尺度换算量：temperature.pasteurization 的 345.15 K × 10",
+      "measureLabel": "由「巴氏杀菌：72 ℃的短时热处理」按 ×10 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 temperature.pasteurization 的既有量值 345.15 K 为基准，倍率 10；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "kitchen",
+      "scene": "temperature.object",
+      "caption": "巴氏杀菌：72 ℃的短时热处理 × 10：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#c58a4f"
+    }
   },
   {
     "id": "temperature.oxyacetylene-flame",
@@ -7101,6 +7749,36 @@
     ]
   },
   {
+    "id": "temperature.neptune-cloud-x100",
+    "title": "海王星云顶 × 100：一次尺度换算",
+    "titleEn": "Neptune cloud-top temperature × 100",
+    "summary": "以「海王星云顶」的 72 K 为基准，按 ×100 换算得到 7,200 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "temperature",
+    "category": "低温",
+    "displayValue": "7,200 K（约 6,926.85 °C）",
+    "quantity": {
+      "value": 7200,
+      "unit": "K",
+      "measure": "尺度换算量：temperature.neptune-cloud 的 72 K × 100",
+      "measureLabel": "由「海王星云顶」按 ×100 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 temperature.neptune-cloud 的既有量值 72 K 为基准，倍率 100；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "planet-environment",
+      "scene": "temperature.object",
+      "caption": "海王星云顶 × 100：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#6f9fd8"
+    }
+  },
+  {
     "id": "temperature.plasma-cutter",
     "title": "等离子切割",
     "titleEn": "Plasma cutting arc temperature",
@@ -7397,6 +8075,36 @@
     ]
   },
   {
+    "id": "temperature.rocket_plume-x3",
+    "title": "RS-25燃烧室热气（参考） × 3：一次尺度换算",
+    "titleEn": "RS-25 hot combustion gas × 3",
+    "summary": "以「RS-25燃烧室热气（参考）」的 3,588.71 K 为基准，按 ×3 换算得到 10,766.1 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "temperature",
+    "category": "高温",
+    "displayValue": "10,766.1 K（约 10,493 °C）",
+    "quantity": {
+      "value": 10766.116666666667,
+      "unit": "K",
+      "measure": "尺度换算量：temperature.rocket_plume 的 3,588.71 K × 3",
+      "measureLabel": "由「RS-25燃烧室热气（参考）」按 ×3 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 temperature.rocket_plume 的既有量值 3,588.71 K 为基准，倍率 3；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "rocket-chamber",
+      "scene": "temperature.object",
+      "caption": "RS-25燃烧室热气（参考） × 3：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#ffd0a1"
+    }
+  },
+  {
     "id": "temperature.rigel-surface",
     "title": "参宿七表面",
     "titleEn": "Rigel surface temperature reference",
@@ -7434,6 +8142,64 @@
       "温度",
       "天体"
     ]
+  },
+  {
+    "id": "temperature.sun-surface-x3",
+    "title": "太阳表面 × 3：一次尺度换算",
+    "titleEn": "Solar effective temperature × 3",
+    "summary": "以「太阳表面」的 5,772 K 为基准，按 ×3 换算得到 17,316 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "temperature",
+    "category": "恒星与宇宙极端",
+    "displayValue": "17,316 K（约 17,042.8 °C）",
+    "quantity": {
+      "value": 17316,
+      "unit": "K",
+      "measure": "尺度换算量：temperature.sun-surface 的 5,772 K × 3",
+      "measureLabel": "由「太阳表面」按 ×3 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 temperature.sun-surface 的既有量值 5,772 K 为基准，倍率 3；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "scene": "temperature.sun-surface",
+      "caption": "太阳表面 × 3：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。"
+    }
+  },
+  {
+    "id": "temperature.steelmaking_temp-x10",
+    "title": "电弧炉出钢温度（约1620°C） × 10：一次尺度换算",
+    "titleEn": "Electric arc furnace tapping temperature reference × 10",
+    "summary": "以「电弧炉出钢温度（约1620°C）」的 1,893.15 K 为基准，按 ×10 换算得到 18,931.5 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "temperature",
+    "category": "高温",
+    "displayValue": "18,931.5 K（约 18,658.3 °C）",
+    "quantity": {
+      "value": 18931.5,
+      "unit": "K",
+      "measure": "尺度换算量：temperature.steelmaking_temp 的 1,893.15 K × 10",
+      "measureLabel": "由「电弧炉出钢温度（约1620°C）」按 ×10 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 temperature.steelmaking_temp 的既有量值 1,893.15 K 为基准，倍率 10；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "metal-furnace",
+      "scene": "temperature.object",
+      "caption": "电弧炉出钢温度（约1620°C） × 10：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#ffbe8a"
+    }
   },
   {
     "id": "temperature.b-type-star",
@@ -7508,6 +8274,34 @@
     ]
   },
   {
+    "id": "temperature.water-freezing-x100",
+    "title": "水的冰点 × 100：一次尺度换算",
+    "titleEn": "Ice–water equilibrium × 100",
+    "summary": "以「水的冰点」的 273.15 K 为基准，按 ×100 换算得到 27,315 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "temperature",
+    "category": "常温",
+    "displayValue": "27,315 K（约 27,041.8 °C）",
+    "quantity": {
+      "value": 27314.999999999996,
+      "unit": "K",
+      "measure": "尺度换算量：temperature.water-freezing 的 273.15 K × 100",
+      "measureLabel": "由「水的冰点」按 ×100 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 temperature.water-freezing 的既有量值 273.15 K 为基准，倍率 100；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "scene": "temperature.water-freezing",
+      "caption": "水的冰点 × 100：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。"
+    }
+  },
+  {
     "id": "temperature.lightning",
     "title": "闪电",
     "titleEn": "Air heated by lightning",
@@ -7544,6 +8338,36 @@
       "温度",
       "日常"
     ]
+  },
+  {
+    "id": "temperature.wet-bulb-temperature-x100",
+    "title": "湿球温度 35 ℃：热应激的物理上限 × 100：一次尺度换算",
+    "titleEn": "Wet-bulb temperature at 35 °C × 100",
+    "summary": "以「湿球温度 35 ℃：热应激的物理上限」的 308 K 为基准，按 ×100 换算得到 30,800 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "temperature",
+    "category": "高温",
+    "displayValue": "30,800 K（约 30,526.8 °C）",
+    "quantity": {
+      "value": 30800,
+      "unit": "K",
+      "measure": "尺度换算量：temperature.wet-bulb-temperature 的 308 K × 100",
+      "measureLabel": "由「湿球温度 35 ℃：热应激的物理上限」按 ×100 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 temperature.wet-bulb-temperature 的既有量值 308 K 为基准，倍率 100；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "heat-map",
+      "scene": "temperature.object",
+      "caption": "湿球温度 35 ℃：热应激的物理上限 × 100：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#c46b4e"
+    }
   },
   {
     "id": "temperature.o-type-star-surface",
@@ -7619,6 +8443,36 @@
     ]
   },
   {
+    "id": "temperature.reentry-plasma-x10",
+    "title": "再入大气层等离子体 × 10：一次尺度换算",
+    "titleEn": "Atmospheric reentry plasma × 10",
+    "summary": "以「再入大气层等离子体」的 10,000 K 为基准，按 ×10 换算得到 1.000×10^05 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "temperature",
+    "category": "极高温",
+    "displayValue": "1.000×10^05 K（约 99,726.9 °C）",
+    "quantity": {
+      "value": 100000,
+      "unit": "K",
+      "measure": "尺度换算量：temperature.reentry-plasma 的 10,000 K × 10",
+      "measureLabel": "由「再入大气层等离子体」按 ×10 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 temperature.reentry-plasma 的既有量值 10,000 K 为基准，倍率 10；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "radiation-field",
+      "scene": "temperature.object",
+      "caption": "再入大气层等离子体 × 10：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#b5d5ff"
+    }
+  },
+  {
     "id": "temperature.solar-wind",
     "title": "太阳风",
     "titleEn": "Solar wind particle temperature",
@@ -7652,6 +8506,35 @@
       "温度",
       "日常"
     ]
+  },
+  {
+    "id": "temperature.magnetar-surface-x0p25",
+    "title": "磁星表面 × 0.25（缩小）：一次尺度换算",
+    "titleEn": "Magnetar surface temperature × 0.25",
+    "summary": "以「磁星表面」的 1.000×10^06 K 为基准，按 ×0.25 换算得到 2.500×10^05 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "temperature",
+    "category": "恒星与宇宙极端",
+    "displayValue": "2.500×10^05 K（约 249,727 °C）",
+    "quantity": {
+      "value": 250000,
+      "unit": "K",
+      "measure": "尺度换算量：temperature.magnetar-surface 的 1.000×10^06 K × 0.25",
+      "measureLabel": "由「磁星表面」按 ×0.25 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 temperature.magnetar-surface 的既有量值 1.000×10^06 K 为基准，倍率 0.25；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "compact-star",
+      "scene": "temperature.object",
+      "caption": "磁星表面 × 0.25（缩小）：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。"
+    }
   },
   {
     "id": "temperature.solar-transition-region",
@@ -7883,6 +8766,34 @@
     ]
   },
   {
+    "id": "temperature.sun-core-x0p1",
+    "title": "太阳核心 × 0.1（缩小）：一次尺度换算",
+    "titleEn": "Solar core temperature × 0.1",
+    "summary": "以「太阳核心」的 1.500×10^07 K 为基准，按 ×0.1 换算得到 1.500×10^06 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "temperature",
+    "category": "恒星与宇宙极端",
+    "displayValue": "1.500×10^06 K（约 1.49973e+06 °C）",
+    "quantity": {
+      "value": 1500000,
+      "unit": "K",
+      "measure": "尺度换算量：temperature.sun-core 的 1.500×10^07 K × 0.1",
+      "measureLabel": "由「太阳核心」按 ×0.1 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 temperature.sun-core 的既有量值 1.500×10^07 K 为基准，倍率 0.1；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "scene": "temperature.sun-core",
+      "caption": "太阳核心 × 0.1（缩小）：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。"
+    }
+  },
+  {
     "id": "temperature.neutron-star-surface",
     "title": "仙后座A中子星表面",
     "titleEn": "Cassiopeia A neutron-star surface reference",
@@ -7957,6 +8868,36 @@
       "温度",
       "天体"
     ]
+  },
+  {
+    "id": "temperature.neutron-star-surface-x1p5",
+    "title": "仙后座A中子星表面 × 1.5：一次尺度换算",
+    "titleEn": "Cassiopeia A neutron-star surface reference × 1.5",
+    "summary": "以「仙后座A中子星表面」的 2.000×10^06 K 为基准，按 ×1.5 换算得到 3.000×10^06 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "temperature",
+    "category": "恒星与宇宙极端",
+    "displayValue": "3.000×10^06 K（约 2.99973e+06 °C）",
+    "quantity": {
+      "value": 3000000,
+      "unit": "K",
+      "measure": "尺度换算量：temperature.neutron-star-surface 的 2.000×10^06 K × 1.5",
+      "measureLabel": "由「仙后座A中子星表面」按 ×1.5 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 temperature.neutron-star-surface 的既有量值 2.000×10^06 K 为基准，倍率 1.5；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "compact-star",
+      "scene": "temperature.object",
+      "caption": "仙后座A中子星表面 × 1.5：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#b8d9f1"
+    }
   },
   {
     "id": "temperature.accretion-disk-inner",
@@ -8130,6 +9071,36 @@
       "天体"
     ],
     "conceptGroup": "sun"
+  },
+  {
+    "id": "temperature.fusion-reactor-plasma-x0p25",
+    "title": "聚变堆等离子体 × 0.25（缩小）：一次尺度换算",
+    "titleEn": "ITER plasma design reference × 0.25",
+    "summary": "以「聚变堆等离子体」的 1.500×10^08 K 为基准，按 ×0.25 换算得到 3.750×10^07 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "temperature",
+    "category": "恒星与宇宙极端",
+    "displayValue": "3.750×10^07 K（约 3.74997e+07 °C）",
+    "quantity": {
+      "value": 37500000,
+      "unit": "K",
+      "measure": "尺度换算量：temperature.fusion-reactor-plasma 的 1.500×10^08 K × 0.25",
+      "measureLabel": "由「聚变堆等离子体」按 ×0.25 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 temperature.fusion-reactor-plasma 的既有量值 1.500×10^08 K 为基准，倍率 0.25；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "reaction-field",
+      "scene": "temperature.object",
+      "caption": "聚变堆等离子体 × 0.25（缩小）：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#c5a5f4"
+    }
   },
   {
     "id": "temperature.laser-fusion-plasma",
@@ -8667,6 +9638,37 @@
     ]
   },
   {
+    "id": "temperature.core-collapse-neutrino-sphere-x2",
+    "title": "核心坍缩中微子球温度 × 2：一次尺度换算",
+    "titleEn": "Core-collapse neutrinosphere temperature × 2",
+    "summary": "以「核心坍缩中微子球温度」的 1.000×10^11 K 为基准，按 ×2 换算得到 2.000×10^11 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "temperature",
+    "category": "恒星与宇宙极端",
+    "displayValue": "2.000×10^11 K（约 2e+11 °C）",
+    "quantity": {
+      "value": 200000000000,
+      "unit": "K",
+      "measure": "尺度换算量：temperature.core-collapse-neutrino-sphere 的 1.000×10^11 K × 2",
+      "measureLabel": "由「核心坍缩中微子球温度」按 ×2 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 temperature.core-collapse-neutrino-sphere 的既有量值 1.000×10^11 K 为基准，倍率 2；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "compact-star",
+      "scene": "temperature.object",
+      "caption": "核心坍缩中微子球温度 × 2：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。",
+      "color": "#c7b6ff",
+      "variant": "neutrino-sphere"
+    }
+  },
+  {
     "id": "temperature.early-universe-1e-4-seconds",
     "title": "大爆炸后 10⁻⁴ 秒温度",
     "titleEn": "Temperature of the universe at 10⁻⁴ seconds",
@@ -8875,6 +9877,35 @@
       "温度",
       "天体"
     ]
+  },
+  {
+    "id": "temperature.planck-temperature-x0p25",
+    "title": "普朗克温度 × 0.25（缩小）：一次尺度换算",
+    "titleEn": "Planck temperature × 0.25",
+    "summary": "以「普朗克温度」的 1.417×10^32 K 为基准，按 ×0.25 换算得到 3.542×10^31 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "temperature",
+    "category": "恒星与宇宙极端",
+    "displayValue": "3.542×10^31 K（约 3.54196e+31 °C）",
+    "quantity": {
+      "value": 3.54196e+31,
+      "unit": "K",
+      "measure": "尺度换算量：temperature.planck-temperature 的 1.417×10^32 K × 0.25",
+      "measureLabel": "由「普朗克温度」按 ×0.25 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 temperature.planck-temperature 的既有量值 1.417×10^32 K 为基准，倍率 0.25；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "reviewStatus": "reviewed",
+    "visual": {
+      "template": "reaction-field",
+      "scene": "temperature.planck-temperature",
+      "caption": "普朗克温度 × 0.25（缩小）：一次尺度换算 · 倍率换算示意",
+      "note": "倍率换算用于连接相邻尺度锚点；场景为风格化示意，不表示新的独立观测。"
+    }
   },
   {
     "id": "temperature.planck-temperature",
